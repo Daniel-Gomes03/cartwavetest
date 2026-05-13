@@ -95,4 +95,4 @@ src/
 
 ## Deploy
 
-Opcional: conectar o repositório à [Vercel](https://vercel.com/) ou `vercel deploy`.
+[https://cartwavetest.vercel.app/](https://cartwavetest.vercel.app/) 
