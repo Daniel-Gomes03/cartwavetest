@@ -1,8 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import { BrandLogo } from "../ui/BrandLogo";
-import { FooterSocial } from "../Footer/FooterSocial";
-import { FooterLegalPlaceholder } from "../Footer/FooterLegalPlaceholder";
-import { NewsletterForm } from "../Footer/NewsletterForm";
+import { FooterSocial } from "./FooterSocial";
+import { FooterLegalPlaceholder } from "./FooterLegalPlaceholder";
+import { NewsletterForm } from "./NewsletterForm";
 import { Mail, FileText, MapPin, Phone } from "lucide-react";
 import Linkedin from "../../assets/linkedin.png";
 import Instagram from "../../assets/instagram.png";
