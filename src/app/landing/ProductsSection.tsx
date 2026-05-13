@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { HighlightCard } from "./components/HighlightCard";
-import { PRODUCTS } from "@/constants/products.constants";
+import { PRODUCTS } from "../../constants/products.constants";
 
 export function ProductsSection() {
   return (

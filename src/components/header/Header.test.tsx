@@ -1,7 +1,7 @@
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { Header } from ".";
-import { LOGIN_URL, WHATSAPP } from "@/constants/links.constants";
+import { LOGIN_URL, WHATSAPP } from "../../constants/links.constants";
 
 describe("Header", () => {
   it("renderiza o link do logo para #inicio", () => {

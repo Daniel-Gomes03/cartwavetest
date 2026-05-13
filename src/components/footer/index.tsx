@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { BrandLogo } from "@/components/ui/BrandLogo";
-import { FooterSocial } from "@/components/Footer/FooterSocial";
-import { FooterLegalPlaceholder } from "@/components/Footer/FooterLegalPlaceholder";
-import { NewsletterForm } from "@/components/Footer/NewsletterForm";
+import { BrandLogo } from "../ui/BrandLogo";
+import { FooterSocial } from "../Footer/FooterSocial";
+import { FooterLegalPlaceholder } from "../Footer/FooterLegalPlaceholder";
+import { NewsletterForm } from "../Footer/NewsletterForm";
 import { Mail, FileText, MapPin, Phone } from "lucide-react";
-import Linkedin from "@/assets/linkedin.png";
-import Instagram from "@/assets/instagram.png";
+import Linkedin from "../../assets/linkedin.png";
+import Instagram from "../../assets/instagram.png";
 import Image from "next/image";
 
 const PRODUCT_LINKS = [

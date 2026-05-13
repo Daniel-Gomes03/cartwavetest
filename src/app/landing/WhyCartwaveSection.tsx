@@ -1,6 +1,6 @@
 import { ReasonCard } from "./components/ReasonCard";
 import { StatsBar } from "./components/StatsBar";
-import { REASONS } from "@/constants/reasons.constants";
+import { REASONS } from "../../constants/reasons.constants";
 
 export function WhyCartwaveSection() {
   return (

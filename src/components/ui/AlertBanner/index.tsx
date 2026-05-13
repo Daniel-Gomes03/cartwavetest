@@ -1,5 +1,5 @@
 import { AlertCircle, CheckCircle, X } from "lucide-react";
-import type { AlertVariant } from "@/hooks/useAlert";
+import type { AlertVariant } from "../../../hooks/useAlert";
 
 type AlertBannerProps = {
   variant: AlertVariant;

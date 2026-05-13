@@ -1,9 +1,9 @@
 import { CircleCheckBig, ArrowRight } from "lucide-react";
-import { LinkButton } from "@/components/ui/LinkButton";
-import { WHATSAPP } from "@/constants/links.constants";
-import { FEATURES, HERO_DASHBOARD_ROWS } from "@/constants/hero.constants";
+import { LinkButton } from "../../components/ui/LinkButton";
+import { WHATSAPP } from "../../constants/links.constants";
+import { FEATURES, HERO_DASHBOARD_ROWS } from "../../constants/hero.constants";
 import { DashboardRow } from "./components/DashboardRow";
-import { AnimatedCard } from "@/components/ui/AnimatedCard";
+import { AnimatedCard } from "../../components/ui/AnimatedCard";
 
 export function HeroSection() {
   return (

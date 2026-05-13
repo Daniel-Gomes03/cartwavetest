@@ -1,5 +1,5 @@
-import { FeatureCard } from "@/components/ui/FeatureCard";
-import { REASONS } from "@/constants/reasons.constants";
+import { FeatureCard } from "../../../components/ui/FeatureCard";
+import { REASONS } from "../../../constants/reasons.constants";
 
 export function ReasonCard({ r }: { r: (typeof REASONS)[number] }) {
   return (

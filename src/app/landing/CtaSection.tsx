@@ -1,7 +1,7 @@
 import { MessageCircle, ArrowRight } from "lucide-react";
-import { LinkButton } from "@/components/ui/LinkButton";
-import { WHATSAPP, LOGIN_URL } from "@/constants/links.constants";
-import { HIGHLIGHTS } from "@/constants/highlights.constants";
+import { LinkButton } from "../../components/ui/LinkButton";
+import { WHATSAPP, LOGIN_URL } from "../../constants/links.constants";
+import { HIGHLIGHTS } from "../../constants/highlights.constants";
 import { CtaHighlight } from "./components/CtaHighlight";
 
 export function CtaSection() {

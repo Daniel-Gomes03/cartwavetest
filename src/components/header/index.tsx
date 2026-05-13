@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useId, useRef, useState } from "react";
-import { BrandLogo } from "@/components/ui/BrandLogo";
-import { LinkButton } from "@/components/ui/LinkButton";
-import { WHATSAPP, LOGIN_URL } from "@/constants/links.constants";
+import { BrandLogo } from "../../components/ui/BrandLogo";
+import { LinkButton } from "../../components/ui/LinkButton";
+import { WHATSAPP, LOGIN_URL } from "../../constants/links.constants";
 import { Menu, X } from "lucide-react";
 
 const NAV = [

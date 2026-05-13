@@ -1,8 +1,8 @@
 "use client";
 
-import { AlertBanner } from "@/components/ui/AlertBanner";
-import { useAlert } from "@/hooks/useAlert";
-import { subscribeNewsletter } from "@/lib/newsletter";
+import { AlertBanner } from "../../components/ui/AlertBanner";
+import { useAlert } from "../../hooks/useAlert";
+import { subscribeNewsletter } from "../../lib/newsletter";
 import { ArrowRight, Loader2 } from "lucide-react";
 import { FormEvent, useState } from "react";
 
